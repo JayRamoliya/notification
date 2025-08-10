@@ -43,7 +43,7 @@ function App() {
 
   const sendTest = async () => {
     if (!token) return alert("Token not ready");
-    const res = await fetch('https://notification-backend-1is2.onrender.com/send-random', {
+    const res = await fetch('https://notification-backend-1-ia6o.onrender.com/send-random', {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ token })
